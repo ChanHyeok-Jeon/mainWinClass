@@ -8,7 +8,7 @@
 ---
 
 ## 📁 프로젝트 구성 파일
-
+```
 ├── res/
 │ ├── mainWindow.ui # 메인 윈도우 UI
 │ └── fbDialog.ui # 서브 기능창 (Mini Facebook UI)
@@ -18,7 +18,7 @@
 ├── pyQTapp03.py # 기능 확장 버전 (미제공)
 ├── pyQTapp04.py # 기능창 (Mini Facebook) - 클래스 버전
 └── app.py # 메인 실행 파일
-
+````
 ---
 
 ## 💻 주요 클래스 및 역할
