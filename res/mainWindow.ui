@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>272</width>
+    <height>153</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>나의개인다이어리</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>3.ico</normaloff>3.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>wsu.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>272</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>인맥관리</string>
+    </property>
+    <addaction name="actionMini_FaceBook"/>
+    <addaction name="separator"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>홈페이지연결</string>
+    </property>
+    <addaction name="actiongkrry_ghavpdlwl"/>
+    <addaction name="actionIT_Center"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMini_FaceBook">
+   <property name="icon">
+    <iconset>
+     <normaloff>3.ico</normaloff>3.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Mini FaceBook</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset>
+     <normaloff>2.ico</normaloff>2.ico</iconset>
+   </property>
+   <property name="text">
+    <string>도움말</string>
+   </property>
+  </action>
+  <action name="actiongkrry_ghavpdlwl">
+   <property name="icon">
+    <iconset>
+     <normaloff>wsu.png</normaloff>wsu.png</iconset>
+   </property>
+   <property name="text">
+    <string>학교</string>
+   </property>
+  </action>
+  <action name="actionIT_Center">
+   <property name="icon">
+    <iconset>
+     <normaloff>it.png</normaloff>it.png</iconset>
+   </property>
+   <property name="text">
+    <string>IT Center</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
